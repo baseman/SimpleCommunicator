@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPlayer.Communicator", "EventPlayer.Communicator\EventPlayer.Communicator.csproj", "{AD072D5A-757C-410A-B9BF-1F39FE1FE691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPlayer.Communicator.Test", "EventPlayer.Communicator.Test\EventPlayer.Communicator.Test.csproj", "{77AF03DE-9EE2-4029-B748-1B42C65D83E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD072D5A-757C-410A-B9BF-1F39FE1FE691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD072D5A-757C-410A-B9BF-1F39FE1FE691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD072D5A-757C-410A-B9BF-1F39FE1FE691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD072D5A-757C-410A-B9BF-1F39FE1FE691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AF03DE-9EE2-4029-B748-1B42C65D83E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AF03DE-9EE2-4029-B748-1B42C65D83E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AF03DE-9EE2-4029-B748-1B42C65D83E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AF03DE-9EE2-4029-B748-1B42C65D83E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

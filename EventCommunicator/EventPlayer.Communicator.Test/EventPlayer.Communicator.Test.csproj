@@ -52,7 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcApplication1\EventPlayer.Communicator.csproj">
+    <ProjectReference Include="..\EventPlayer.Communicator\EventPlayer.Communicator.csproj">
       <Project>{AD072D5A-757C-410A-B9BF-1F39FE1FE691}</Project>
       <Name>EventPlayer.Communicator</Name>
     </ProjectReference>

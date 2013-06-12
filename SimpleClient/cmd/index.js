@@ -56,6 +56,6 @@ if(argv.getChanges){
     rest.get('http://localhost:54280/Command/GetChanges?modelId=' + argv.id).on('complete', handleResponse );
 }
 
-if(argv.ClearAllChanges){
+if(argv.clearAllChanges){
     rest.post('http://localhost:54280/Command/ClearAllChanges/').on('complete', handleResponse );
 }

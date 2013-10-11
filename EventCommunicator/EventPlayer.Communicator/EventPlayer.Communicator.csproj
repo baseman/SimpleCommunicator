@@ -76,11 +76,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\JobEngine1.cs" />
+    <Compile Include="Engine\JobEngine2.cs" />
+    <Compile Include="Engine\JobEngine3.cs" />
+    <Compile Include="Engine\JobEngine4.cs" />
+    <Compile Include="Models\Command\Design\IValidateJob.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Command\RnJob.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Command\RnJobCmd.cs" />
+    <Compile Include="Models\Command\StubAddCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\DtServer.cs" />
+    <Compile Include="Models\Event\RnJobExecutedEvt.cs" />
+    <Compile Include="Models\JobType.cs" />
     <Compile Include="Mvc\Controllers\CommandController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Command\StubAddCommand.cs" />
     <Compile Include="Models\Event\StubAddedEvent.cs" />
     <Compile Include="Models\StubModel.cs" />
     <Compile Include="Mvc\Handler\HandleJsonExceptionAttribute.cs" />

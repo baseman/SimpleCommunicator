@@ -50,6 +50,7 @@
     <Compile Include="Integration\StubModelRestTest.cs" />
     <Compile Include="Unit\StubModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit\UsageCommunicatorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EventPlayer.Communicator\EventPlayer.Communicator.csproj">
